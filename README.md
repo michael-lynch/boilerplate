@@ -2,13 +2,23 @@
 
 This boilerplate is framework agnostic, mobile first, and only contains a simple html file to get you started.
 
-It includes some basic Grunt tasks as well as some basic LESS styles.
+It uses Node Package Manager and includes some basic [Grunt](http://gruntjs.com/) tasks as well as some basic [LESS](http://lesscss.org) styles.
+
+###Node Package Manager
+
+To start using the Grunt tasks, you'll need to install [Node.js](http://nodejs.org/) and [Node Package Manager](https://www.npmjs.org/), which is included with Node. Once installed, simply navigate to your project's root directory and run:
+
+```
+npm install
+```
 
 ###Grunt
 
-To get started navigate to your site directory and run:
+To get started with your Grunt tasks, navigate to your project's root directory and run:
 
-'grunt watch'
+```
+grunt watch
+```
 
 This will watch for changes in:
 
@@ -37,18 +47,4 @@ The Grunt tasks included are:
 
 ###LESS
 
-The default LESS styles are:
-
-- /resources/less/styles.less
-
-- /resources/core/fonts.less
-
-- /resources/core/colors.less
-
-- /resources/core/buttons.less
-
-- /resources/core/icons.less
-
-- /resources/core/forms.less
-
-- /resources/core/typography.less
+The boilerplate includes some default LESS stylesheets for mixins, fonts, icons, forms, animations etc. It also defines two basic breakpoints for tablet (800px) and desktop (1000px), while the default styles are mobile.
