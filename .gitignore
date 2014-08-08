@@ -1,0 +1,24 @@
+# COMPILED #
+
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# LOGS AND DBS #
+
+*.log
+*.sql
+*.sqlite
+
+# OS GENERATED #
+
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+# NODE MODULES #
+
+node_modules/
