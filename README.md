@@ -47,4 +47,4 @@ The Grunt tasks included are:
 
 ###LESS
 
-The boilerplate includes some default LESS stylesheets for mixins, fonts, icons, forms, animations etc. It also defines two basic breakpoints for tablet (800px) and desktop (1000px), while the default styles are mobile.
+The boilerplate includes some default LESS stylesheets for mixins, fonts, icons, forms, animations etc. It also defines two basic breakpoints for tablet (600px) and desktop (1000px), while the default styles are mobile.
